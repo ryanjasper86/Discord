@@ -1,0 +1,1 @@
+{\n  "name": "Node.js Development Environment",\n  "dockerFile": "Dockerfile",\n  "context": ".",\n  "extensions": [\n    "dbaeumer.vscode-eslint",\n    "esbenp.prettier-vscode",\n    "ms-azuretools.vscode-docker"\n  ],\n  "postCreateCommand": "npm install",\n  "remoteUser": "node"\n}
